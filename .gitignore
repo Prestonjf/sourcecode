@@ -1,0 +1,12 @@
+
+.project
+
+.pydevproject
+
+*.pyc
+
+com/prestonsproductions/sourcecode/BoxFactory2018/Teams/*
+
+com/prestonsproductions/sourcecode/MusicLibrary2018/Teams/*
+
+com/prestonsproductions/sourcecode/RoadTrip2018/Teams/*
