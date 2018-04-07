@@ -61,7 +61,5 @@ def main():
     print('QUESTION 19 OBJECTIVE B (2): '+'Check for comment explaining function.')
     print('QUESTION 19 OBJECTIVE C (2): '+'Check if previous function in file was called.')
     print('QUESTION 19 OBJECTIVE D (2): '+'Check if import statement was used.')
-
-    # Print Box Production
     
 main()

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 .project
 
@@ -11,6 +10,7 @@ com/prestonsproductions/sourcecode/BoxFactory2018/Teams/*
 com/prestonsproductions/sourcecode/MusicLibrary2018/Teams/*
 
 com/prestonsproductions/sourcecode/RoadTrip2018/Teams/*
+
 =======
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -113,4 +113,4 @@ ENV/
 
 # mypy
 .mypy_cache/
->>>>>>> 5dbbe3846ff6626e275dea96d8bff119dc3ace0f
+

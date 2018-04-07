@@ -250,6 +250,7 @@ def main():
                 {'NAME':'Easier to Run', 'ARTIST':'Linkin Park', 'ALBUM':'Meteora', 'DURATION':205, 'FILESIZE':2.3,'RATING':4},
                 {'NAME':'Figure 09', 'ARTIST':'Linkin Park', 'ALBUM':'Meteora', 'DURATION':198, 'FILESIZE':2.1,'RATING':3},
                 {'NAME':'Breaking the Habit', 'ARTIST':'Linkin Park', 'ALBUM':'Meteora', 'DURATION':197, 'FILESIZE':2.1,'RATING':4},
+                {'NAME':'Radioactive', 'ARTIST':'Imagine Dragons', 'ALBUM':'Night Visions', 'DURATION':188, 'FILESIZE':1.9,'RATING':4},
                 {'NAME':'Demons', 'ARTIST':'Imagine Dragons', 'ALBUM':'Night Visions', 'DURATION':176, 'FILESIZE':1.7,'RATING':4},
                 {'NAME':'On Top of the World', 'ARTIST':'Imagine Dragons', 'ALBUM':'Night Visions', 'DURATION':191, 'FILESIZE':1.9,'RATING':5},
                 {'NAME':'Underdog', 'ARTIST':'Imagine Dragons', 'ALBUM':'Night Visions', 'DURATION':210, 'FILESIZE':2.3,'RATING':2},
@@ -294,14 +295,14 @@ def main():
     print('Source Code - Division B/C - Music Library')
     
     print('QUESTION 0 OBJECTIVE A (2): '+str(getMusicLibraryTitle()))
-    print('QUESTION 1 OBJECTIVE A (2): '+str(getCDArea(4)))
-    print('QUESTION 2 OBJECTIVE A (2): '+str(hasEnoughSpace(1023,1024)))
-    print('QUESTION 3 OBJECTIVE A (3): '+str(logSong('Wildest Dreams','Taylor Swift','1989')))
-    print('QUESTION 4 OBJECTIVE A (3): '+str(formatTime(204)))
-    print('QUESTION 4 OBJECTIVE B (3): '+str(formatTime(204)))
-    print('QUESTION 5 OBJECTIVE A (3): '+str(reverseString('Jump On My Shoulders')))
+    print('QUESTION 1 OBJECTIVE A (2): '+str(getCDArea(5)))
+    print('QUESTION 2 OBJECTIVE A (2): '+str(hasEnoughSpace(1024,1024)))
+    print('QUESTION 3 OBJECTIVE A (3): '+str(logSong('Love Me Do','The Beatles','1')))
+    print('QUESTION 4 OBJECTIVE A (3): '+str(formatTime(205)))
+    print('QUESTION 4 OBJECTIVE B (3): '+str(formatTime(205)))
+    print('QUESTION 5 OBJECTIVE A (3): '+str(reverseString('Man in the Wilderness')))
     print('QUESTION 6 OBJECTIVE A (4): '+str(getSong(library, 'Soul Vaccination')))
-  
+    
     print('QUESTION 7 OBJECTIVE A (4): '+str(getTotalTime(library)))
     
     print('QUESTION 8 OBJECTIVE A (5): '+str(getAverageSize(library, 'RATING')) +' '+ str(getAverageSize(library, 'FILESIZE')))
@@ -313,15 +314,15 @@ def main():
     print('QUESTION 10 OBJECTIVE A (2): '+str(getTheBestSong(library)))
     
     print('QUESTION 11 OBJECTIVE A (5): '+str(getSpacesCount(library)))
-    print('QUESTION 12 OBJECTIVE A (5): '+str(truncateSongTitle('when the World Was at war We kept dancing')))
-    print('QUESTION 13 OBJECTIVE A (5): '+str(capitalizeSongTitle('When the World Was at War We Kept Dancing')))
+    print('QUESTION 12 OBJECTIVE A (5): '+str(truncateSongTitle('down to the night Club')))
+    print('QUESTION 13 OBJECTIVE A (5): '+str(capitalizeSongTitle('down to the night Club')))
     print('QUESTION 14 OBJECTIVE A (6): '+str(getAlbumMostSongs(library)))
     
     print('QUESTION 15 OBJECTIVE A (6): '+str(getShortestMixTape(library)))
     print('QUESTION 15 OBJECTIVE B (2): '+str(getShortestMixTape(library)))
-    
+       
     print('QUESTION 16 OBJECTIVE A (7): '+str(getMedianDuration(library)))
-    print('QUESTION 17 OBJECTIVE A (7): '+str(fibonnaciSum(library)))  
+    print('QUESTION 17 OBJECTIVE A (7): '+str(fibonnaciSum(library)))   
     print('QUESTION 18 OBJECTIVE A (8): '+str(getAnagrams(library, 'I hang under lo list')))
     
     print('QUESTION 19 OBJECTIVE A (4): '+str(getStatistic(library)))

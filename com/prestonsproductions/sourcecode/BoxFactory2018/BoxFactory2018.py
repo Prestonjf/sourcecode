@@ -246,30 +246,42 @@ def main():
                972,920,812,320,809,654,702,563,652,599,587,740,680,673,702,263,702,932,562,421,453,23,898,485,968,620,
                792,205,179,92,362,2,89,600,18,514,75,110,976,872,458,44,642,411,437,539,233, 1000]
     
-    # Print Question Answer
+    # Print Question Answer 112 Points Total
     print('Source Code - Division B/C - Box Factory - Box Production')
     
-    print('QUESTION 0: '+str(getBoxProductionTitle('The Source Code Box Production', '00022', '01/13/2019')))
-    print('Question 1: '+str(getVolume(10,20,5)))
-    print('Question 2: '+str(getSurfaceArea(4,5,10)))
-    print('Question 3: '+str(isBoxLargeEnough(12, 11)))
-    print('Question 4: '+str(getTotalSurfaceArea(boxesSF)))
-    print('Question 5: '+str(getAverageSurfaceArea(boxesSF)))
-    print('Question 6: '+str(getSumOfFactors(boxesSF)))
-    print('Question 7: '+str(reverseList(objects)))
-    print('Question 8: '+str(getBoxBuildTime(10,20,30)))
-    print('Question 9: '+str(getBoxCost(99, 0.24)))
-    print('Question 10: '+str(getBoxAddOnCost(150, 'METAL', 11)))
-    print('Question 11: '+str(getMaterialPercentage(boxesSF)))  
-    print('Question 12: '+str(getTotalBuildTime(boxes)))
-    print('Question 13: '+str(getBoxes(objects)))
-    print('Question 14: '+str(needsPerfectSqaureSticker(64)))
-    print('Question 15: '+str(getPythagoreanTriples(boxes)))
-    print('Question 16: '+str(isBoxesLargeEnough(boxesSF, objects)))
-    print('Question 17: '+str(getMostBoxesCount(boxes, 10000)))
-    print('Question 18: '+str(getPrimeNumberBoxesVolume(50)))
-    print('Question 19: '+str(getStatistics(boxes)))
-
-    # Print Box Production
+    print('QUESTION 0 OBJECTIVE A (2): '+str(getBoxProductionTitle('The Source Code Box Production', '00022', '01/13/2019')))
+    print('Question 1 OBJECTIVE A (2): '+str(getVolume(10,20,5)))
+    print('Question 2 OBJECTIVE A (3): '+str(getSurfaceArea(4,5,10)))
+    print('Question 3 OBJECTIVE A (3): '+str(isBoxLargeEnough(12, 11)))
+    print('Question 4 OBJECTIVE A (4): '+str(getTotalSurfaceArea(boxesSF)))
+    print('Question 5 OBJECTIVE A (4): '+str(getAverageSurfaceArea(boxesSF)))
+    print('Question 6 OBJECTIVE A (4): '+str(getSumOfFactors(boxesSF)))
+    print('Question 7 OBJECTIVE A (4): '+str(reverseList(objects)))
+    
+    print('Question 8 OBJECTIVE A (4): '+str(getBoxBuildTime(10,20,30)))
+    print('Question 8 OBJECTIVE B (2): '+str(getBoxBuildTime(39,41,30)))
+    
+    print('Question 9 OBJECTIVE A (4): '+str(getBoxCost(99, 0.24)))
+    print('Question 9 OBJECTIVE B (2): '+str(getBoxCost(100, 0.24)))
+    
+    print('Question 10 OBJECTIVE A (4): '+str(getBoxAddOnCost(150, 'CARDBOARD', 8)))
+    print('Question 10 OBJECTIVE B (4): '+str(getBoxAddOnCost(150, 'PLASTIC', 11)))
+    print('Question 10 OBJECTIVE C (4): '+str(getBoxAddOnCost(150, 'METAL', 9)))
+    
+    print('Question 11 OBJECTIVE A (4): '+str(getMaterialPercentage(boxesSF)))
+    print('Question 11 OBJECTIVE B (2): '+str(getMaterialPercentage(boxesSF)))
+    
+    print('Question 12 OBJECTIVE A (6): '+str(getTotalBuildTime(boxes)))
+    print('Question 13 OBJECTIVE A (6): '+str(getBoxes(objects)))
+    print('Question 14 OBJECTIVE A (6): '+str(needsPerfectSqaureSticker(64)))
+    print('Question 15 OBJECTIVE A (6): '+str(getPythagoreanTriples(boxes)))
+    print('Question 16 OBJECTIVE A (6): '+str(isBoxesLargeEnough(boxesSF, objects)))
+    print('Question 17 OBJECTIVE A (8): '+str(getMostBoxesCount(boxes, 10000)))
+    print('Question 18 OBJECTIVE A (8): '+str(getPrimeNumberBoxesVolume(50))) 
+    
+    print('Question 19 OBJECTIVE A (4): '+str(getStatistics(boxes)))
+    print('QUESTION 19 OBJECTIVE B (2): '+'Check for comment explaining function.')
+    print('QUESTION 19 OBJECTIVE C (2): '+'Check if previous function in file was called.')
+    print('QUESTION 19 OBJECTIVE D (2): '+'Check if import statement was used.')
     
 main()

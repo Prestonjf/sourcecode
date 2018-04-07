@@ -402,7 +402,5 @@ def main():
     print('QUESTION 19 A (2): '+'Check for comment explaining function.')
     print('QUESTION 19 A (2): '+'Check if previous function in file was called.')
     print('QUESTION 19 A (2): '+'Check if import statement was used.')
-
-    # Print Trip Log
     
 #main()

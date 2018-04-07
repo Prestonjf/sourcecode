@@ -245,6 +245,7 @@ def main():
                 {'NAME':'Cadillac', 'DISTANCE':71, 'DURATION':84, 'GASPRICE':3.01},
                 {'NAME':'Mount Pleasant', 'DISTANCE':65, 'DURATION':65, 'GASPRICE':2.99},
                 {'NAME':'Flint', 'DISTANCE':90, 'DURATION':87, 'GASPRICE':2.59},
+                {'NAME':'Clio', 'DISTANCE':15, 'DURATION':18, 'GASPRICE':2.66},
                 ]
     
     tripdata2 = [{'NAME':'Bath', 'DISTANCE':0, 'DURATION':0, 'GASPRICE':2.51},                 
@@ -264,6 +265,7 @@ def main():
                 {'NAME':'Tawas City', 'DISTANCE':69, 'DURATION':70, 'GASPRICE':2.89},
                 {'NAME':'Mackinaw City', 'DISTANCE':165, 'DURATION':152, 'GASPRICE':3.30},
                 {'NAME':'St. Ignace', 'DISTANCE':12, 'DURATION':25, 'GASPRICE':3.20},
+                {'NAME':'Sault Ste Marie', 'DISTANCE':60, 'DURATION':56, 'GASPRICE':3.44},
                 ]
     
     landmarks = [('Blue Chair','Alpena','Lansing'),
@@ -279,22 +281,23 @@ def main():
                  ('Sky Resort','Ludington','Traverse City'),
                  ('The Bay Bridge','Bay City','Saginaw'),
                  ('Nothing','Bath','St. Johns'),
+                 ('Nothing','Flint','Clio'),
                 ]
     
     # Print Question Answer
-    print('Source Code - Division B/C - Road Trip - Travel Log')
+    print('Source Code (MAIN) - Division B/C - Road Trip - Travel Log')
     
-    print('QUESTION 0 A (2): '+getTravelLogTitle('The Source Code Travel Log', '00001', '02/02/2018'))
+    print('QUESTION 0 A (2): '+getTravelLogTitle('The Source Code Travel Log', '10001', '03/03/2018'))
     
-    print('QUESTION 1 A (2): '+str(getDistanceBetween(700,600)))
-    print('QUESTION 1 B (2): '+str(getDistanceBetween(600,700)))
+    print('QUESTION 1 A (2): '+str(getDistanceBetween(800,600)))
+    print('QUESTION 1 B (2): '+str(getDistanceBetween(600,800)))
     
-    print('QUESTION 2 A (2): '+str(getFuelCost(500,2.59,24)))
-    print('QUESTION 2 B (2): '+str(getFuelCost(500,2.59,24)))
+    print('QUESTION 2 A (2): '+str(getFuelCost(501,2.59,24)))
+    print('QUESTION 2 B (2): '+str(getFuelCost(501,2.59,24)))
     
-    print('QUESTION 3 A (3): '+str(getAverageSpeed(500, 450)))
+    print('QUESTION 3 A (3): '+str(getAverageSpeed(600, 500)))
     
-    print('QUESTION 4 A (3): '+str(firstCapital('LanSIng')))
+    print('QUESTION 4 A (3): '+str(firstCapital('sAGINaW')))
     
     print('QUESTION 5 A (3): '+str(getCents(1.377)))
     
@@ -303,7 +306,7 @@ def main():
     print('QUESTION 7 A (4): '+str(isPrimeNumber(199)) +', ' + str(isPrimeNumber(8335)))
     
     print('QUESTION 8 A (4): '+str(convertUnits(20, 'MI','KM')))
-    print('QUESTION 8 B (1): '+str(convertUnits(20, 'MI','CE')))
+    print('QUESTION 8 B (2): '+str(convertUnits(20, 'MI','CE')))
     
     print('QUESTION 9 A (4): '+str(getTotalDistance(tripdata)))
     
@@ -316,7 +319,7 @@ def main():
     print('QUESTION 12 B (2): '+str(getTotalAverageSpeed([])))
     
     print('QUESTION 13 A (4): '+str(getDistantCities(tripdata)))
-    print('QUESTION 13 B (3): '+str(getDistantCities(tripdata)))
+    print('QUESTION 13 B (2): '+str(getDistantCities(tripdata)))
     
     print('QUESTION 14 A (5): '+str(getLandMarks('Alpena','Albion', landmarks)))
     
@@ -332,7 +335,5 @@ def main():
     print('QUESTION 19 A (2): '+'Check for comment explaining function.')
     print('QUESTION 19 A (2): '+'Check if previous function in file was called.')
     print('QUESTION 19 A (2): '+'Check if import statement was used.')
-
-    # Print Trip Log
     
 main()
