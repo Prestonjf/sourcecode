@@ -399,7 +399,7 @@ def main():
     print('QUESTION 9 OBJECTIVE A (5): '+str(getNumberOfMixTapes(library))) # 3
     
     print('QUESTION 10 OBJECTIVE A (5): '+str(getTheBestSong(library))) # ['On Top of the World 100.52631578947368', 'California 37 100.52631578947368'] or ['On Top of the World', 'California 37']
-    print('QUESTION 10 OBJECTIVE A (2): '+str(getTheBestSong(library))) # ['On Top of the World 100.52631578947368', 'California 37 100.52631578947368']
+    print('QUESTION 10 OBJECTIVE B (2): '+str(getTheBestSong(library))) # ['On Top of the World 100.52631578947368', 'California 37 100.52631578947368']
     
     print('QUESTION 11 OBJECTIVE A (5): '+str(getSpacesCount(library))) # 37
     print('QUESTION 12 OBJECTIVE A (5): '+str(truncateSongTitle('down to the night Club'))) # down to the night Cl...
@@ -418,4 +418,4 @@ def main():
     print('QUESTION 19 OBJECTIVE C (2): '+'Check if previous function in file was called.')
     print('QUESTION 19 OBJECTIVE D (2): '+'Check if import statement was used.')
     
-#main()
+main()

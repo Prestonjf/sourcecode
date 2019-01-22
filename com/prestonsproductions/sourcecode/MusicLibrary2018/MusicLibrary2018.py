@@ -311,7 +311,7 @@ def main():
     print('QUESTION 9 OBJECTIVE A (5): '+str(getNumberOfMixTapes(library)))
     
     print('QUESTION 10 OBJECTIVE A (5): '+str(getTheBestSong(library)))
-    print('QUESTION 10 OBJECTIVE A (2): '+str(getTheBestSong(library)))
+    print('QUESTION 10 OBJECTIVE B (2): '+str(getTheBestSong(library)))
     
     print('QUESTION 11 OBJECTIVE A (5): '+str(getSpacesCount(library)))
     print('QUESTION 12 OBJECTIVE A (5): '+str(truncateSongTitle('down to the night Club')))

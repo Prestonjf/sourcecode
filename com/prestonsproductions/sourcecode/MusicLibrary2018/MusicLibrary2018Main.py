@@ -84,7 +84,7 @@ def main():
     print('QUESTION 9 OBJECTIVE A (5): '+str(ML.getNumberOfMixTapes(library))) # 3
     
     print('QUESTION 10 OBJECTIVE A (5): '+str(ML.getTheBestSong(library))) # ['On Top of the World 100.52631578947368', 'California 37 100.52631578947368'] or ['On Top of the World', 'California 37']
-    print('QUESTION 10 OBJECTIVE A (2): '+str(ML.getTheBestSong(library))) # ['On Top of the World 100.52631578947368', 'California 37 100.52631578947368']
+    print('QUESTION 10 OBJECTIVE B (2): '+str(ML.getTheBestSong(library))) # ['On Top of the World 100.52631578947368', 'California 37 100.52631578947368']
     
     print('QUESTION 11 OBJECTIVE A (5): '+str(ML.getSpacesCount(library))) # 37
     print('QUESTION 12 OBJECTIVE A (5): '+str(ML.truncateSongTitle('down to the night Club'))) # down to the night Cl...
