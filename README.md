@@ -2,7 +2,7 @@
 
 Python coding challenges (tests) for the Science Olympiad event Source Code.
 
-Programming tests will be found in there own folder in the root project directory.
+Programming tests will be found in their own folder in the root project directory.
 
 These tests have been uploaded to help Science Olympiad teams (and others) practice programming. Tests contain a variety of questions with increasing difficulty that relate to a similar theme/topic.
 
