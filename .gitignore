@@ -5,17 +5,17 @@
 
 *.pyc
 
-com/prestonsproductions/sourcecode/BoxFactory2018/Teams/*
+BoxFactory2018/Teams/*
 
-com/prestonsproductions/sourcecode/MusicLibrary2018/Teams/*
+MusicLibrary2018/Teams/*
 
-com/prestonsproductions/sourcecode/RoadTrip2018/Teams/*
+RoadTrip2018/Teams/*
 
-com/prestonsproductions/sourcecode/FantasyBaseball2018/Teams/*
+FantasyBaseball2018/Teams/*
 
-com/prestonsproductions/sourcecode/ThemePark2019/Teams/*
+ThemePark2019/Teams/*
 
-com/prestonsproductions/sourcecode/Climatology2019/Teams/*
+Climatology2019/Teams/*
 
 =======
 # Byte-compiled / optimized / DLL files
@@ -119,4 +119,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-
